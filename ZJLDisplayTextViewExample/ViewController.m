@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    ZJLDisplayTextView *textView = [[ZJLDisplayTextView alloc] initWithPosition:CGPointMake(100, 100) text:@"beautiful" fontSize:20.0];
+    [self.view addSubview:textView];
+    
+    ZJLDisplayTextView *textView2 = [[ZJLDisplayTextView alloc] initWithPosition:CGPointMake(10, 200) text:@"this is a long text" fontSize:30.0];
+    textView2.velocity = 180;
+    [self.view addSubview:textView2];
+    
 }
 
 - (void)didReceiveMemoryWarning {

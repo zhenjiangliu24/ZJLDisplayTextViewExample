@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0416E81D186972009D9119 /* ZJLDisplayTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0416E71D186972009D9119 /* ZJLDisplayTextView.m */; };
 		CAFC87661D177D24000229AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC87651D177D24000229AC /* main.m */; };
 		CAFC87691D177D24000229AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC87681D177D24000229AC /* AppDelegate.m */; };
 		CAFC876C1D177D24000229AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC876B1D177D24000229AC /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA0416E61D186972009D9119 /* ZJLDisplayTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZJLDisplayTextView.h; path = ZJLDisplayTextView/ZJLDisplayTextView.h; sourceTree = "<group>"; };
+		CA0416E71D186972009D9119 /* ZJLDisplayTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZJLDisplayTextView.m; path = ZJLDisplayTextView/ZJLDisplayTextView.m; sourceTree = "<group>"; };
 		CAFC87611D177D24000229AC /* ZJLDisplayTextViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLDisplayTextViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFC87651D177D24000229AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CAFC87671D177D24000229AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 			children = (
 				CAFC879B1D177D76000229AC /* NSString+ZJLDisplayTextView.h */,
 				CAFC879C1D177D76000229AC /* NSString+ZJLDisplayTextView.m */,
+				CA0416E61D186972009D9119 /* ZJLDisplayTextView.h */,
+				CA0416E71D186972009D9119 /* ZJLDisplayTextView.m */,
 			);
 			name = ZJLDisplayTextView;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAFC876C1D177D24000229AC /* ViewController.m in Sources */,
+				CA0416E81D186972009D9119 /* ZJLDisplayTextView.m in Sources */,
 				CAFC879D1D177D76000229AC /* NSString+ZJLDisplayTextView.m in Sources */,
 				CAFC87691D177D24000229AC /* AppDelegate.m in Sources */,
 				CAFC87661D177D24000229AC /* main.m in Sources */,
@@ -515,6 +521,7 @@
 				CAFC87901D177D24000229AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAFC87911D177D24000229AC /* Build configuration list for PBXNativeTarget "ZJLDisplayTextViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +530,7 @@
 				CAFC87931D177D24000229AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAFC87941D177D24000229AC /* Build configuration list for PBXNativeTarget "ZJLDisplayTextViewExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +539,7 @@
 				CAFC87961D177D24000229AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
